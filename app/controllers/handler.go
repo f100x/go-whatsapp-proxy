@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/leadstolink/go-whatsapp-proxy/app/dto"
+	"github.com/f100x/go-whatsapp-proxy/app/dto"
 	waProto "go.mau.fi/whatsmeow/binary/proto"
 	"go.mau.fi/whatsmeow/types/events"
 )

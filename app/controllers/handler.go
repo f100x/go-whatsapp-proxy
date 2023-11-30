@@ -74,7 +74,7 @@ func (k *Controller) eventHandler(evt interface{}) {
 				s := *v.Message.ExtendedTextMessage.ContextInfo.QuotedMessage.Conversation
 				p := *v.Message.ExtendedTextMessage.ContextInfo.Participant
 				//	mess.Caption = "<em> &quot; " + s + " &quot; >\n &emsp; " + mess.Conversation
-				mess.Conversation = "{+" + p + "}\n  [" + s + "]\n  \n" + mess.Conversation
+				mess.Conversation = "{+" + p + "}\n  |" + s + "|" + mess.Conversation
 			}
 
 			if v.Message.ExtendedTextMessage.ContextInfo.QuotedMessage != nil && v.Message.ExtendedTextMessage.ContextInfo.QuotedMessage.ImageMessage != nil {

@@ -110,8 +110,8 @@ func (k *Controller) Autologin() error {
 
 func (k *Controller) Logout(c *fiber.Ctx) error {
 	// Remove the whatsappstore.db file if it exists
-	if _, err := os.Stat("/../../whatsappstore.db"); err == nil {
-		if err := os.Remove("/../../whatsappstore.db"); err != nil {
+	if _, err := os.Stat("whatsappstore.db"); err == nil {
+		if err := os.Remove("whatsappstore.db"); err != nil {
 			log.Fatal(err)
 		}
 	}

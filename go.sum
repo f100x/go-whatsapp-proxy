@@ -16,6 +16,8 @@ github.com/gofiber/fiber/v2 v2.33.0 h1:U9om15fapDkQ2sd9JQMfZLOs52bagsMAoTomQDqyJ
 github.com/gofiber/fiber/v2 v2.33.0/go.mod h1:CMy5ZLiXkn6qwthrl03YMyW1NLfj0rhxz2LKl4t7ZTY=
 github.com/gofiber/fiber/v2 v2.50.0 h1:ia0JaB+uw3GpNSCR5nvC5dsaxXjRU5OEu36aytx+zGw=
 github.com/gofiber/fiber/v2 v2.50.0/go.mod h1:21eytvay9Is7S6z+OgPi7c7n4++tnClWmhpimVHMimw=
+github.com/gofiber/fiber/v2 v2.51.0 h1:JNACcZy5e2tGApWB2QrRpenTWn0fq0hkFm6k0C86gKQ=
+github.com/gofiber/fiber/v2 v2.51.0/go.mod h1:xaQRZQJGqnKOQnbQw+ltvku3/h8QxvNi8o6JiJ7Ll0U=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/google/go-cmp v0.5.5 h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
@@ -66,6 +68,8 @@ github.com/valyala/fasthttp v1.35.0 h1:wwkR8mZn2NbigFsaw2Zj5r+xkmzjbrA/lyTmiSlal
 github.com/valyala/fasthttp v1.35.0/go.mod h1:t/G+3rLek+CyY9bnIE+YlMRddxVAAGjhxndDB4i4C0I=
 github.com/valyala/fasthttp v1.50.0 h1:H7fweIlBm0rXLs2q0XbalvJ6r0CUPFWK3/bB4N13e9M=
 github.com/valyala/fasthttp v1.50.0/go.mod h1:k2zXd82h/7UZc3VOdJ2WaUqt1uZ/XpXAfE9i+HBC3lA=
+github.com/valyala/fasthttp v1.51.0 h1:8b30A5JlZ6C7AS81RsWjYMQmrZG6feChmgAolCl1SqA=
+github.com/valyala/fasthttp v1.51.0/go.mod h1:oI2XroL+lI7vdXyYoQk03bXBThfFl2cVdIA3Xl7cH8g=
 github.com/valyala/tcplisten v1.0.0 h1:rBHj/Xf+E1tRGZyWIWwJDiRY0zc1Js+CV5DqwacVSA8=
 github.com/valyala/tcplisten v1.0.0/go.mod h1:T0xQ8SeCZGxckz9qRXTfG43PvQ/mcWh7FwZEA7Ioqkc=
 go.mau.fi/libsignal v0.0.0-20220425070825-c40c839ee6a0 h1:3IQF2bgAyibdo77hTejwuJe4jlypj9QaE4xCQuxrThM=
@@ -80,6 +84,8 @@ go.mau.fi/whatsmeow v0.0.0-20231018112044-306bf6fef4d2 h1:27IohJQeoxrcJE44yEE2B2
 go.mau.fi/whatsmeow v0.0.0-20231018112044-306bf6fef4d2/go.mod h1:u557d2vph8xcLrk3CKTBknUHoB6icUpqazA4w+binRU=
 go.mau.fi/whatsmeow v0.0.0-20231104103606-23bd57d939ca h1:r1/XGlSlYUFR4WTDKURPf8bTuPncrADZfOGPNrfr1oI=
 go.mau.fi/whatsmeow v0.0.0-20231104103606-23bd57d939ca/go.mod h1:u557d2vph8xcLrk3CKTBknUHoB6icUpqazA4w+binRU=
+go.mau.fi/whatsmeow v0.0.0-20231127175850-3c97433b4676 h1:YaFOVOdFJCSSByUT6WSgh65ChcVEDZN4QD7OTwaMw+k=
+go.mau.fi/whatsmeow v0.0.0-20231127175850-3c97433b4676/go.mod h1:5xTtHNaZpGni6z6aE1iEopjW7wNgsKcolZxZrOujK9M=
 golang.org/x/crypto v0.0.0-20220214200702-86341886e292/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/crypto v0.0.0-20220517005047-85d78b3ac167 h1:O8uGbHCqlTp2P6QJSLmCojM4mN6UemYv8K+dCnmHmu0=
 golang.org/x/crypto v0.0.0-20220517005047-85d78b3ac167/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=

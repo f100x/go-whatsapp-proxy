@@ -107,26 +107,28 @@ func (k *Controller) Autologin() error {
 
 	return nil
 }
-
 func (k *Controller) Logout(c *fiber.Ctx) error {
 	// Remove the whatsappstore.db file if it exists
 	if _, err := os.Stat("whatsappstore.db"); err == nil {
 		if err := os.Remove("whatsappstore.db"); err != nil {
-			log.Fatal(err)
+			// Handle the error more gracefully, log it, and continue
+			log.Printf("Error removing whatsappstore.db: %s", err)
 		}
 	}
 
 	// Log out the user
 	if k.client != nil {
 		if err := k.client.Logout(); err != nil {
-			return err
+			// Handle the error more gracefully, return an error response
+			return c.JSON(dto.Response{Status: false})
 		}
 	}
 
 	// Run the run.sh script
 	cmd := exec.Command("./run.sh")
 	if err := cmd.Start(); err != nil {
-		return err
+		// Handle the error more gracefully, return an error response
+		return c.JSON(dto.Response{Status: false})
 	}
 
 	return c.JSON(dto.Response{Status: true})
